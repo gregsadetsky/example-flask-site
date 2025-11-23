@@ -3,7 +3,7 @@
     "services": {
         "web": {
             "port": 8080,
-            "extraSwarmParams": "-m 1000"
+            "extraSwarmParams": "--limit-memory 100"
         }
     }
 }
